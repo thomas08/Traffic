@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
@@ -43,7 +44,7 @@ public class Adapter extends BaseAdapter{
     public View getView(int i, View convertView, ViewGroup parent) {
 
         LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View view = layoutInflater.inflate(R.layout.my_listview,ViewGroup, false);
+        View view = layoutInflater.inflate(R.layout.my_listview, parent, false);
 
         //Show text
         TextView titleTextView = (TextView) view.findViewById(R.id.textView);
@@ -51,6 +52,10 @@ public class Adapter extends BaseAdapter{
 
         TextView detailTextView = (TextView) view.findViewById(R.id.textView2);
         detailTextView.setText(detailStrings[i]);
+
+        //Show Image
+        ImageView iconimageView = (ImageView) view.findViewById(R.id.imageView);
+        iconimageView.setImageResource(iconInts[i]);
 
 
 

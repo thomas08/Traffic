@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="detail">
+
+        <item>detail1</item>
+        <item>detail2</item>
+        <item>detail3</item>
+        <item>detail4</item>
+        <item>detail5</item>
+        <item>detail6</item>
+        <item>detail7</item>
+        <item>detail8</item>
+        <item>detail9</item>
+        <item>detail10</item>
+        <item>detail11</item>
+        <item>detail12</item>
+        <item>detail13</item>
+        <item>detail14</item>
+        <item>detail15</item>
+        <item>detail16</item>
+        <item>detail17</item>
+        <item>detail18</item>
+        <item>detail19</item>
+        <item>detail20</item>
+
+    </string-array>
+
+</resources>
