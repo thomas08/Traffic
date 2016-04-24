@@ -21,7 +21,7 @@ public class DetailActivity extends AppCompatActivity {
         trafficImageView.setImageResource(getIntent().getIntExtra("Image",R.drawable.traffic_01));
 
         TextView detailTextView = (TextView) findViewById(R.id.textView4);
-        titleTextView.setText(getIntent().getStringExtra("detail"));
+        detailTextView.setText(getIntent().getStringExtra("Detail"));
 
 
     } //mainmethod
